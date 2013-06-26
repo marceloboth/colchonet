@@ -1,0 +1,120 @@
+pt-BR:
+  users:
+    new:
+      title: Cadastro
+    edit:
+      title: Editar
+    show:
+      title: "Perfil: %{user_name}"
+      edit: 'Editar perfil'
+      location: "Localização: %{location}"
+      bio: "Bio: %{bio}"
+    confirmations:
+      success: Email confirmado com sucesso, obrigado!
+
+  dialogs:
+    destroy: 'Você tem certeza que quer remover?'
+
+  rooms:
+    index:
+      title: 'Quartos disponíveis'
+      search_results: 'Resultados da busca'
+    search:
+      search_for: 'Buscar por...'
+    room:
+      owner_html: '&mdash; %{owner} (%{when})'
+      edit: 'Editar'
+      destroy: 'Remover'
+    new:
+      title: Cadastro
+    edit:
+      title: Editar quarto
+    show:
+      title: "Quarto: %{title}"
+      edit: 'Editar quarto'
+      location: "Localização: %{location}"
+    review:
+      login_to_review: 'Faça o login para avaliar quartos'
+      stats:
+        one: '(1 avaliação)'
+        other: '(%{count} avaliações)'
+
+
+  links:
+    back: Voltar
+    show: Exibir
+
+  layout:
+    rooms: Quartos
+    signup: Cadastro
+
+  general:
+    form_error: Há erros no formulário, por favor verifique.
+
+  activerecord:
+    models:
+      user: Usuário
+      room: Quarto
+      review: Avaliação
+    attributes:
+      user:
+        bio: Biografia
+        email: Email
+        full_name: Nome completo
+        location: Localização
+        password: Senha
+        password_confirmation: Confirme sua senha
+      room:
+        description: Descrição
+        location: Localização
+        title: Título
+        picture: Foto
+
+  user_sessions:
+    new:
+      title: 'Login'
+      sign_up: 'Cadastre-se'
+
+  activemodel:
+    attributes:
+      user_session:
+        email: Email
+        password: Senha
+    errors:
+      messages:
+        invalid_login: 'Usuário ou senha inválidos'
+
+  helpers:
+    submit:
+      user_session:
+        create: 'Entrar'
+
+
+  signup_mailer:
+    confirm_email:
+      subject: 'Colcho.net - Confirme seu email'
+      title: 'Seja bem vindo ao Colcho.net!'
+      body: |
+        Seja bem vindo ao Colcho.net, %{full_name}.
+        O Colcho.net é o lugar ideal para você alugar aquele quarto
+        sobrando na sua casa e ainda conhecer gente do mundo inteiro.
+
+      confirm_link_html: 'Para você começar a usar o site, acesse o link: %{link}'
+      thanks_html: 'Obrigado por se cadastrar no %{link}.'
+
+  flash:
+    notice:
+      signed_in: 'Bem vindo!'
+      signed_out: 'Logout efetuado com sucesso. Até logo!'
+    alert:
+      needs_login: 'Para continuar, você precisa estar logado'
+
+
+  layout:
+    rooms: Quartos
+    new_room: Cadastre seu quarto!
+    signup: Cadastro
+    signin: Login
+    my_profile: Meu perfil
+    signout: Logout
+

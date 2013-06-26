@@ -1,0 +1,49 @@
+en:
+  users:
+    new:
+      title: Signup
+    edit:
+      title: Edit
+    show:
+      title: "Profile: %{user_name}"
+      edit: 'Edit profile'
+      location: "Location: %{location}"
+      bio: "Bio: %{bio}"
+
+  rooms:
+    new:
+      title: Signup
+    edit:
+      title: Edit room
+    show:
+      title: "Room: %{title}"
+      edit: 'Edit room'
+      location: "Location: %{location}"
+
+  links:
+    back: Back
+    show: Show
+
+  layout:
+    rooms: Rooms
+    signup: Signup
+
+  general:
+    form_error: There are errors on the form, please check.
+
+  activerecord:
+    models:
+      user: User
+      room: Room
+    attributes:
+      user:
+        bio: Biography
+        email: E-mail
+        full_name: Complete name
+        location: Location
+        password: Password
+        password_confirmation: Confirm your password
+      room:
+        description: Description
+        location: Location
+        title: Title
