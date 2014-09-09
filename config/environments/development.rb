@@ -46,7 +46,7 @@ config.active_record.auto_explain_threshold_in_seconds = 0.5
     :port                 => 587,
     :domain               => "localhost:3000",
     :user_name            => "marcelo.both",
-    :password             => "141105$$both",
+    :password             => "marceloboth",
     :authentication       => "plain",
     :enable_starttls_auto => true
   }
